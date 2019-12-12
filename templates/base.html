@@ -1,10 +1,9 @@
-{% load staticfiles %}
 {% load static %}
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Codedaddies List</title>
+    <title>SeoulCraiglistClone</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="{% static "css/style.css" %}">
@@ -15,7 +14,7 @@
 <body>
 <nav>
     <div class="container nav-wrapper">
-        <a href="/" class="brand-logo">Codedaddies List</a>
+        <a href="/" class="brand-logo">SeoulCC</a>
         <ul id="nav-mobile" class="right">
             <li><a href="/">Home</a></li>
         </ul>
@@ -23,7 +22,8 @@
 </nav>
 
 <div class="container">
-    <h1 style="text-align: center">What do you want to search for on Codedaddies List?</h1>
+    <h1 style="text-align: center">Search anything on SeoulCC</h1>
+    <h3 style="text-align: center">This website imitates search functionality of seoul.craiglist.org</h3>
     <div class="row">
         <div class="col s4">
             <!-- Promo Content 1 goes here -->
@@ -37,9 +37,9 @@
         <div class="col s4">
             <!-- Promo Content 2 goes here -->
             <div class="center">
-                <i class="large material-icons" style="color: orange">camera</i>
+                <i class="large material-icons" style="color: orange">find_in_page</i>
                 <p>Filter your searches</p>
-                <p class="light center">We built in functionality to filter based on pricing.</p>
+                <p class="light center">We will soon add a functionality to filter based on pricing.</p>
             </div>
         </div>
 
@@ -47,7 +47,7 @@
             <!-- Promo Content 3 goes here -->
             <div class="center">
                 <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
-                <p>A much sexier front-end to Craigslist</p>
+                <p>A much nice-looking front-end to Craigslist</p>
                 <p class="light center">We built this with ❤️</p>
             </div>
         </div>
@@ -65,6 +65,25 @@
 
     {% endblock content %}
 </div>
+<br>
+<br>
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text" style="text-align: center">AHZ</h5>
+          <p class="grey-text text-lighten-4" style="text-align: center">This website education purpose only</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container" style="text-align: center">
+      © 2019 by Alisher M.
+      </div>
+    </div>
+  </footer>
+      
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
