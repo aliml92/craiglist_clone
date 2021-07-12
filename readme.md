@@ -1,1 +1,2 @@
-#Django App - Craiglist Clone
+# Craiglist clone
+Made with python
